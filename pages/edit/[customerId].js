@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import CustomerEditPage from "../../components/template/CustomerEditPage"
+import CustomerEditPage from "@/components/template/CustomerEditPage"
 import { useEffect, useState } from "react";
 
  function Index() {

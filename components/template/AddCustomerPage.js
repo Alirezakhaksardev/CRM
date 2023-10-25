@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import Form from '../module/Form';
 import { useRouter } from 'next/router';
+import React, { useState } from 'react'
+import Form from '@/components/module/Form';
 
 
 function AddCustomerPage() {

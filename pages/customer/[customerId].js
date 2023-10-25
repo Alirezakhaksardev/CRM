@@ -1,6 +1,6 @@
 import { Router, useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
-import CustomerDetailsPage from '../../components/template/CustomerDetailsPage'
+import CustomerDetailsPage from '@/components/template/CustomerDetailsPage'
 function Index() {
     const router = useRouter();
     const [data , setData] = useState(null);

@@ -1,6 +1,6 @@
-import connectDB from '../utils/connectDB';
-import Customer from '../models/Customer'; 
-import HomePage from '../components/template/HomePage';
+import connectDB from '@/utils/connectDB';
+import Customer from '@/models/Customer'; 
+import HomePage from '@/components/template/HomePage';
 
 function Index({customers}) {
   return (

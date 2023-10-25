@@ -1,4 +1,4 @@
-import FormInput from './FormInput';
+import FormInput from '@/components/module/FormInput';
 
 function ItemList({form , setForm}) {
 
