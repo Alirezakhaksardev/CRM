@@ -12,10 +12,10 @@ function Layout({children}) {
             {children}
         </div> 
         <footer className='footer'>
-            <a href='https://botostart.ir' target='_blank' rel='noreferrer'>
-                borostart
-            </a>
-            Next.jd course | CRM Projext &copy;
+            <a href='https://github.com/Alirezakhaksardev' target='_blank' rel='noreferrer'>
+                Alireza Khaksar GITHUB
+            </a> 
+            Next.js | CRM Projext &copy;
         </footer>
     </>
 )
