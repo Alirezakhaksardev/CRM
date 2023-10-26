@@ -14,7 +14,7 @@ function Layout({children}) {
         <footer className='footer'>
             <a href='https://github.com/Alirezakhaksardev' target='_blank' rel='noreferrer'>
                 Alireza Khaksar GITHUB
-            </a> 
+            </a>  &nbsp;
             Next.js | CRM Projext &copy;
         </footer>
     </>
