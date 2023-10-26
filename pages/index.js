@@ -12,7 +12,7 @@ function Index({customers}) {
 
 export default Index;
 
-export async function getStaticProps(){
+export async function getServerSideProps(){
   try{
     await connectDB();
     const customers = await Customer.find();
@@ -22,6 +22,8 @@ export async function getStaticProps(){
       }
     }
   }catch(err){
-    console.log(err);
+    return {
+      props : {status:"error"}
+    } 
   }
 }
